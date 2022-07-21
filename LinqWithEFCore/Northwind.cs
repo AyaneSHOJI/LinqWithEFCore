@@ -6,7 +6,7 @@ namespace Packt.Shared;
 public class Northwind : DbContext
 {
     // these properties map to tables in the database
-    public DbSet<Category>? Cateogries { get; set; }
+    public DbSet<Category>? Categories { get; set; }
     public DbSet<Product>? Products{ get; set; }
 
 
